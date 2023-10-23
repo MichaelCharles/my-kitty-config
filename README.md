@@ -8,7 +8,7 @@ Clone or fork this repository to `~/.config/kitty`.
 
 ## Icon
 
-I personally think the stock Kitty icon is kind of ugly. Thankfully, Rune Warhuus (DinkDonk) has created [a beautiful modern looking icon which we can use as a replacement.](https://github.com/DinkDonk/kitty-icon) I’ve provided a copy in this repository. If you cloned or forked the repository to `~/.config/kitty`, you should be able to install the custom icon with the terminal command below.
+I personally am not a fan of the stock icon. Thankfully, Rune Warhuus (DinkDonk) has created [a beautiful modern looking icon which we can use as a replacement.](https://github.com/DinkDonk/kitty-icon) I’ve provided a copy in this repository. If you cloned or forked the repository to `~/.config/kitty`, you should be able to install the custom icon with the terminal command below.
 
 ```sh
 kitty +runpy 'from kitty.fast_data_types import cocoa_set_app_icon; import sys; cocoa_set_app_icon(*sys.argv[1:]); print("OK")' ~/.config/kitty/icons/kitty-dark.icns
